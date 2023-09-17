@@ -2,7 +2,7 @@
 
 Este é um projeto de estudo para o ESP32 usando a Espressif IDE.
 
-[![Veja um Hello Word, canal WR KITS](https://www.youtube.com/watch?v=8g5_0idkvVI)
+[Veja um Hello Word, canal WR KITS](https://www.youtube.com/watch?v=8g5_0idkvVI)
 
 
 **Versão da IDE:** [2.9.1](https://dl.espressif.com/dl/esp-idf/)

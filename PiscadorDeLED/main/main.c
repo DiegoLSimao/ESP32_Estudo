@@ -8,7 +8,7 @@
  */
 
 
-
+//*** Includes
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -22,7 +22,7 @@
 #define LED_ONBOARD 2 // Define GPIO 2 como pino do LED
 
 //*** Constantes
-const char* TAG = "Piscador de LED"; // APenas uma tag com nome do sistema caso queira usar no log
+const char* TAG = "Piscador de LED"; // Apenas uma tag com nome do projeto caso queira usar no log
 
 //*** Variáveis globais
 char led_Status = 0;

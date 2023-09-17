@@ -31,4 +31,4 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 **Nota:** Certifique-se de que possui a versão adequada da Espressif IDE instalada para usar este projeto. Verifique as configurações e a documentação da IDE para obter informações adicionais sobre como configurar e compilar projetos para o ESP32.
 
-Para mais informações sobre o ESP32 e a Espressif IDE, visite [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started//]([https://dl.espressif.com/dl/esp-idf/](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/)https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/).
+Para mais informações sobre o ESP32 e a Espressif IDE, visite [Espressif Get Started]([https://dl.espressif.com/dl/esp-idf/](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/).

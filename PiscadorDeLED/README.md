@@ -1,5 +1,13 @@
-ESP-IDF template app
+Projeto Piscador de Led OnBoard
 ====================
+
+Este é um projeto inicial apenas para estudo da nova IDE Espressif para projetos para ESP 32.
+A finalidade deste código é apenas piscar o LED on board da placa do DevKit V1 do ESP32 presente o GPIO 2 desta placa.
+
+
+
+
+---
 
 This is a template application to be used with [Espressif IoT Development Framework](https://github.com/espressif/esp-idf).
 

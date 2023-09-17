@@ -159,3 +159,4 @@ size_info.txt
 
 # clang config (for LSP)
 .clangd
+/.metadata/

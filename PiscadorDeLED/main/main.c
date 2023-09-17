@@ -18,7 +18,7 @@
 
 
 
-//*** Definições
+//*** Mapeamento de hardware
 #define LED_ONBOARD 2 // Define GPIO 2 como pino do LED
 
 //*** Constantes

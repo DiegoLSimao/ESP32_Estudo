@@ -14,9 +14,6 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 #include "esp_log.h"
-#include "sdkconfig.h"
-
-
 
 //*** Mapeamento de hardware
 #define LED_ONBOARD 2 // Define GPIO 2 como pino do LED
@@ -37,7 +34,7 @@ void Delay_ms(int);
 void app_main(void)
 {
 	ConfigurarLed();
-	int delay = 1000;
+	int delay = 500;
 
 	//*** loop infinito
     while (1)
@@ -45,9 +42,14 @@ void app_main(void)
         PiscarLed();
         Delay_ms(delay);
 
-        //*** Controle para acelerar a piscada do led em 10 ms a cada ciclo
-        if(delay > 10) delay = delay -10;
-        else		delay = 1000;
+        //*** Controle para acelerar a piscada do led
+        if(delay > 400) delay = delay -10;
+        else if(delay > 300) delay = delay -8;
+        else if(delay > 200) delay = delay -5;
+        else if(delay > 100) delay = delay -3;
+        else if(delay > 50)  delay = delay -2;
+        else if(delay > 5)   delay = delay -1;
+        else delay = 500;
 
     }
 }

@@ -1,7 +1,7 @@
 /* Projeto Informação do chip
  *
  * Autor: Diego Simão
- * email: simaold@gmail.com
+ * E-mail: simaold@gmail.com
  * Data: 23/09/2023
  *
  * Este projeto faz a impressão via terminal das informações do chip
